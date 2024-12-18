@@ -1,0 +1,17 @@
+Teste com o postman:
+
+GET: http://localhost:3000/api/pollution
+
+
+POST: http://localhost:3000/api/pollution 
+
+{
+  "location": "São Paulo",
+  "value": 75.2,
+  "timestamp": "2024-12-15T10:30:00Z"
+}
+
+
+GET http://localhost:3000/export
+
+//Geração do excel
